@@ -27,8 +27,17 @@ public class DataAggregator {
 
         String mobile = parts[0].trim();
         String tower = parts[1].trim();
-        int data4G = parseIntSafe(parts[2].trim());
-        int data5G = parseIntSafe(parts[3].trim());
+
+        if (mobile.isEmpty() || !mobile.matches("\\d{10}")) {
+            throw new IllegalArgumentException("Invalid mobile number: " + mobile);
+        }
+
+        if (tower.isEmpty()) {
+            throw new IllegalArgumentException("Missing tower name");
+        }
+
+        int data4G = parseIntSafe(parts[2].trim(),"4G data");
+        int data5G = parseIntSafe(parts[3].trim(),"5G data");
         boolean roaming = parts[4].trim().equalsIgnoreCase("Yes");
 
         return new DataRecord(mobile, tower, data4G, data5G, roaming);
@@ -50,11 +59,16 @@ public class DataAggregator {
         return usageMap;
     }
 
-    private int parseIntSafe(String s) {
+    private int parseIntSafe(String s,String label) {
+        int value;
         try {
-            return Integer.parseInt(s);
+            value = Integer.parseInt(s);
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException("Invalid number format: " + s);
+            throw new IllegalArgumentException("Invalid "+label+" " + s);
         }
+        if (value < 0){
+            throw new IllegalArgumentException(label+" cannot be negative "+value);
+        }
+        return value;
     }
 }
