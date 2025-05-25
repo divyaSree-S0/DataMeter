@@ -38,7 +38,22 @@ public class DataAggregator {
 
         int data4G = parseIntSafe(parts[2].trim(),"4G data");
         int data5G = parseIntSafe(parts[3].trim(),"5G data");
-        boolean roaming = parts[4].trim().equalsIgnoreCase("Yes");
+//        boolean roaming = parts[4].trim().equalsIgnoreCase("Yes");
+        String roamingRaw = parts[4].trim().toLowerCase();
+
+        boolean roaming;
+        switch (roamingRaw) {
+            case "yes":
+            case "true":
+                roaming = true;
+                break;
+            case "no":
+            case "false":
+                roaming = false;
+                break;
+            default:
+                throw new IllegalArgumentException("Invalid roaming value: " + parts[4].trim());
+        }
 
         return new DataRecord(mobile, tower, data4G, data5G, roaming);
     }

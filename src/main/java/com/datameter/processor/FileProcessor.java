@@ -107,12 +107,12 @@ public class FileProcessor {
         try {
             Files.createDirectories(Paths.get(OUTPUT_DIR));
             String timestamp = LocalDateTime.now().format(FORMATTER);
-            String errorFileName = OUTPUT_DIR + "/malformed_lines_" + timestamp + ".log";
+            String errorFileName = OUTPUT_DIR + "/skipped_lines_" + timestamp + ".log";
             try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(errorFileName))) {
                 for (String line : malformedLines) {
                     writer.write(line + "\n");
                 }
-                System.out.println("Malformed lines logged to: " + errorFileName);
+                System.out.println("Error lines logged to: " + errorFileName);
             }
         } catch (IOException e) {
             System.err.println("Error writing malformed lines: " + e.getMessage());

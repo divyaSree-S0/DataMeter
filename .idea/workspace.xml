@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3197b6b-54a3-4361-9238-069effa2808a" name="Changes" comment="first working code">
+    <list default="true" id="a3197b6b-54a3-4361-9238-069effa2808a" name="Changes" comment="added enhanced exception handling">
+      <change afterPath="$PROJECT_DIR$/tools/GenerateTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datameter/input_files/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datameter/input_files/sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datameter/input_files/sample.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/datameter/processor/FileProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datameter/processor/FileProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/datameter/service/DataAggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datameter/service/DataAggregator.java" afterDir="false" />
     </list>
@@ -50,7 +52,7 @@
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datameter.MainApp" />
       <module name="DataMeter" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\dcosi\IdeaProjects\DataMeter\src\main\java\com\datameter\input_files" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\dcosi\IdeaProjects\DataMeter\input_files" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.datameter.*" />
@@ -76,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748164098770</updated>
       <workItem from="1748164100511" duration="3569000" />
-      <workItem from="1748172039204" duration="8401000" />
+      <workItem from="1748172039204" duration="10783000" />
     </task>
     <task id="LOCAL-00001" summary="first working code">
       <created>1748178516784</created>
@@ -85,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748178516784</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added enhanced exception handling">
+      <created>1748181751429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748181751429</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first working code" />
-    <option name="LAST_COMMIT_MESSAGE" value="first working code" />
+    <MESSAGE value="added enhanced exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="added enhanced exception handling" />
   </component>
 </project>
