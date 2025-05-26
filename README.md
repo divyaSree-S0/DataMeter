@@ -54,6 +54,13 @@ output/
 >  * The ```input_files/``` folder contains valid .txt input files
 >  * The ```config.properties``` file is in the same directory as the JAR
 
+Yet another alternative is to open this repository in github codespaces and just run the below command:
+
+```bash
+java -jar JAR/DataMeter-1.0-SNAPSHOT.jar input_files
+```
+The output is generated in the ```output``` folder
+
 ---
 
 
