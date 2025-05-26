@@ -5,7 +5,19 @@ import com.datameter.processor.FileProcessor;
 
 /**
  * Entry point for the Data Meter application.
- * Expects one argument: path to the directory containing input data files.
+ *
+ * This program reads large input files containing mobile data usage logs,
+ * aggregates the data per mobile number, classifies it into 4G/5G Home/Roaming,
+ * and generates a cost report. Malformed lines are logged separately.
+ *
+ * Usage:
+ *   java -jar DataMeter.jar <input-directory>
+ *
+ * Requirements:
+ * - Java 21
+ * - config.properties in project root with rate and threshold values
+ * - Input files with format:
+ *     MobileNumber|Tower|4G|5G|Roaming
  */
 public class MainApp {
     public static void main(String[] args) {

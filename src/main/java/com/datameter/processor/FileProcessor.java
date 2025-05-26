@@ -16,9 +16,18 @@ import java.time.format.DateTimeFormatter;
 
 
 /**
- * Handles reading input files, processing usage data, logging malformed lines,
- * and writing the final usage report.
+ * Orchestrates the full process:
+ * - Walks through input directory
+ * - Reads each file line-by-line
+ * - Aggregates valid lines, logs malformed ones with reasons
+ * - Generates output report in output/ directory with timestamp
+ *
+ * Also handles:
+ * - Creating directories if needed
+ * - Writing structured error logs
+ * - Writing the final usage report with calculated cost
  */
+
 public class FileProcessor {
 
     private final DataAggregator aggregator = new DataAggregator();

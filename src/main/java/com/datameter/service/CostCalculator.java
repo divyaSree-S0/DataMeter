@@ -8,9 +8,15 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * Calculates the cost of data usage for a given mobile number.
- * Rates and thresholds are loaded from a configuration file.
+ * Responsible for calculating the total cost for a MobileUsage record.
+ * Rates and thresholds are loaded from config.properties.
+ *
+ * Rules:
+ * - 4G/5G have base rates
+ * - Roaming data is charged at a higher multiplier
+ * - If total usage exceeds threshold, apply surcharge
  */
+
 public class CostCalculator {
 
     private final double rate4G;

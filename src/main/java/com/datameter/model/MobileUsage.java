@@ -2,8 +2,14 @@
 package com.datameter.model;
 
 /**
- * Aggregates total usage for a single mobile number across all categories.
+ * Aggregated usage metrics for a single mobile number.
+ * Tracks separate counters for:
+ * - 4G Home
+ * - 5G Home
+ * - 4G Roaming
+ * - 5G Roaming
  */
+
 public class MobileUsage {
     private final String mobileNumber;
     private long data4GHome;

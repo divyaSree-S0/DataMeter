@@ -2,8 +2,10 @@
 package com.datameter.model;
 
 /**
- * Represents a single line of data usage from the input file.
+ * Represents one line of valid mobile data usage input.
+ * * Holds the raw 4G/5G data, mobile number, tower, and roaming flag.
  */
+
 public class DataRecord {
     private final String mobileNumber;
     private final String towerId;

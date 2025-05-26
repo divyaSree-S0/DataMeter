@@ -8,8 +8,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Parses input lines into records and aggregates them by mobile number.
+ * Parses input lines into DataRecord objects and aggregates them.
+ * Validates:
+ * - 10-digit mobile number
+ * - Non-empty tower name
+ * - Non-negative 4G/5G values
+ * - Roaming field must be Yes/No/True/False (case-insensitive)
+ * Invalid lines throw IllegalArgumentException (to be logged).
  */
+
 public class DataAggregator {
 
     private final Map<String, MobileUsage> usageMap = new HashMap<>();
