@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3197b6b-54a3-4361-9238-069effa2808a" name="Changes" comment="added README.md and JAR file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="a3197b6b-54a3-4361-9238-069effa2808a" name="Changes" comment="updated README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +89,7 @@
       <updated>1748164098770</updated>
       <workItem from="1748164100511" duration="3569000" />
       <workItem from="1748172039204" duration="13438000" />
-      <workItem from="1748232684719" duration="3341000" />
+      <workItem from="1748232684719" duration="3815000" />
     </task>
     <task id="LOCAL-00001" summary="first working code">
       <created>1748178516784</created>
@@ -122,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748235694357</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated README.md">
+      <created>1748236066892</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748236066892</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +148,7 @@
     <MESSAGE value="added enhanced exception handling" />
     <MESSAGE value="minor changes to test data gen" />
     <MESSAGE value="added README.md and JAR file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added README.md and JAR file" />
+    <MESSAGE value="updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated README.md" />
   </component>
 </project>
