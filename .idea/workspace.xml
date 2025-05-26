@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3197b6b-54a3-4361-9238-069effa2808a" name="Changes" comment="added README.md and JAR file">
-      <change afterPath="$PROJECT_DIR$/JAR/DataMeter-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.datameter/CostCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.datameter/DataAggregatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datameter/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datameter/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datameter/model/DataRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datameter/model/DataRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datameter/model/MobileUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datameter/model/MobileUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datameter/processor/FileProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datameter/processor/FileProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datameter/service/CostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datameter/service/CostCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datameter/service/DataAggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datameter/service/DataAggregator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +92,7 @@
       <updated>1748164098770</updated>
       <workItem from="1748164100511" duration="3569000" />
       <workItem from="1748172039204" duration="13438000" />
-      <workItem from="1748232684719" duration="2987000" />
+      <workItem from="1748232684719" duration="3341000" />
     </task>
     <task id="LOCAL-00001" summary="first working code">
       <created>1748178516784</created>
@@ -125,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748184289474</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added README.md and JAR file">
+      <created>1748235694356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748235694357</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -6,6 +6,11 @@ Java 21 application that processes large mobile data usage files and generates c
 
 ##  How to Run the Project
 
+> 📁 A ready-to-run JAR is included for convenience.  
+> See [Alternative: Run without cloning(JAR only)](#alternative-run-without-cloning-jar-only
+) for instructions.
+
+
 ###  Step 1: Clone the Repository
 
 ```bash
